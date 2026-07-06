@@ -27,4 +27,7 @@ match cod:
         print(f" A Multiplicaçã de {n1} + [n2] é {n1 * n2}" ) 
     case  4:
         print(f" A Divisão de {n1} + [n2] é {n1 / n2}" ) 
+
+        print("Teste de Commit")
+       
         
