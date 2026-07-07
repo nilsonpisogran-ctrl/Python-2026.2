@@ -24,4 +24,6 @@ elif n2 > n1:
 #if opcao == "N":
 #   break
 print("\nPrograma encerrado.")
+print("\nPrograma encerrado.")
+print("\nPrograma encerrado.")
 
