@@ -17,4 +17,6 @@ elif C1 == 25:
 elif C1 == 36:
     print("Aninha")
 else:
+    
     print("Voto Nulo")
+
