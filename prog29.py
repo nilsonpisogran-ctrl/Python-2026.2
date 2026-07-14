@@ -25,7 +25,7 @@ lista = []
 
 for i in range(1,6):
         
-        x =input("Digite o {i}º Numero: ")
+        x = int(input(f"Digite o Numero: "))
 
         r =int(x) % 2
 
@@ -35,5 +35,5 @@ for i in range(1,6):
         elif r == 0:
            sit = "PAR"  
         
-        print("O {i}º Numero é : {sit}")
+        print(f"O {i}º Numero é : {sit}")
       

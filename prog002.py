@@ -9,10 +9,7 @@ while True:
     salario = float(input("Digite o salário: R$ "))
 
     # Armazena os dados em um dicionário
-    funcionario = {
-        "nome": nome,
-        "salario": salario
-    }
+    funcionario = { "nome": nome,"salario": salario }
 
     # Adiciona na lista
     cadastros.append(funcionario)
@@ -29,12 +26,9 @@ while True:
     # Pergunta se deseja continuar
     opcao = input("\nDeseja cadastrar outro funcionário? (S/N): ").upper()
 
-   
-
-
     while opcao not in ("S", "N"):
         opcao = input("Digite apenas S ou N: ").upper()
 
     if opcao == "N":
         break
-print("\nPrograma encerrado.")
+        print("\nPrograma encerrado.")
