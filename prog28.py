@@ -4,7 +4,7 @@ cadastro =[]
 
 for i in range(1,31):
         
-        linha = {nome+str(i)}
+        linha = {nome+str(i:2)}
 
         cadastro.append(linha)
 
