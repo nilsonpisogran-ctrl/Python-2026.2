@@ -1,4 +1,14 @@
 # automatiza uma comanda de restaurante
+def exibirnome(nome,cel):
+    print(f"Olá {nome}, tudo Bem? seu numero é: {cel}")
+    
+# Teste Função
+for i in range(5):
+   exibirnome("Nilson Macedo", "21-964.449.770")
+   exibirnome("Telles", "440")
+
+
+
 produtos = ["Batata Frita", "Pastel", "Filé Aperitivo", "Torrada", "Franco Passarinho", "Chopp"]
 total = 0
 situacao = True
@@ -20,6 +30,3 @@ while situacao:
     total = total + n2
 
 print(n1,n2,total)
-    
-    
-    
